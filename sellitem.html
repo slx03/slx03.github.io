@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sellitemstyle.css">
+</head>
+<body>
+    <h1 id = "title">NILE COMMERCE</h1>
+    <div class="navbar">
+        <button onclick = "location.href = 'index.html'">Home</button>
+        <button onclick = "location.href = 'signin.html'">Sign in</button>
+        <button onclick = "location.href = 'sellitem.html'">Sell</button>
+        <button onclick = "location.href = 'shoppingcart.html'">Shopping cart</button>
+    </div>
+    <div class = "center">
+        <h2>Sell an item</h2>
+    </div>
+    <div class = "center">
+        <button type="file">+</button><br>
+        &nbsp;add image
+        <br>
+        <br>
+    </div>
+    <div class = "center">
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name"><br><br>
+            <label for="description">Description</label><br>
+            <input type="text" id="description"><br><br>
+            <label for="quantity">Quantity</label><br>
+            <select name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br><br>
+            <label for="Price">Price</label><br>
+            <input type="text" id="price"><br><br>
+            <label for="category">Category</label><br>
+            <select name="category" id="category">
+                <option value=null></option>
+                <option value="books">Books</option>
+                <option value="movies">Movies</option>
+                <option value="vinyls">Vinyls</option>
+            </select><br><br>
+        </form><br>
+    </div>
+    <div class = "center">
+        <button type="submit" onclick = "location.href = 'product.html'" id = "sellbutton">Sell</button>
+    </div>
+</body>
+</html>

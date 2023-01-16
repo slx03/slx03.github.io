@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="productstyle.css">
+</head>
+<body>
+    <h1 id = "title">NILE COMMERCE</h1>
+    <div class="navbar">
+        <button onclick = "location.href = 'index.html'">Home</button>
+        <button onclick = "location.href = 'signin.html'">Sign in</button>
+        <button onclick = "location.href = 'sellitem.html'">Sell</button>
+        <button onclick = "location.href = 'shoppingcart.html'">Shopping cart</button>
+    </div>
+    <div class="flex">
+        <div class="left">
+            <h2>Harry Potter and the Philosopher's Stone - J.K. Rowling</h2>
+            <p>Book</p>
+            <img src="bookimage.jpg">
+            <p>
+                Harry Potter thinks he is an ordinary boy - until he is rescued by an owl, 
+                taken to Hogwarts School of Witchcraft and Wizardry, 
+                learns to play Quidditch and does battle in a deadly duel. 
+                The Reason ... HARRY POTTER IS A WIZARD! 
+                <br>
+                <br>
+                223 pages, Paperback
+                <br>
+                <br>
+                First published June 26, 1997
+            </p>
+            <p>Supplier: Bloomsbury Publishing</p>
+            <p>Rating: &#11088;&#11088;&#11088;&#11088;</p>
+            <p>Reviews: <br><br>
+            "Words cannot express how highly I recommend this one. If you haven't read HP recently...I strongly urge you to check out this book." - Miranda
+            </p>
+        </div>
+        <div class="right">
+            <label for="quantity">Quantity</label><br>
+            <select name="quantity" id="quantity" style = "margin-top: 20px;">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select><br>
+            <p id = "price" style = "padding-bottom: 40px; padding-top: 20px">Price: <output>€15.00</output></p>
+            <button type="submit" onclick = "location.href = 'shoppingcart.html'">Add to cart</button>
+            <button type="button" style = "margin-left: 20px;">Buy now</button>
+        </div>
+    </div>
+</body>
+</html>

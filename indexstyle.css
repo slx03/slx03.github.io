@@ -1,0 +1,79 @@
+*
+{
+    color: #eeeeee;
+}
+body
+{
+    background-color: #393e46;
+}
+#title
+{
+    color: #00adb5;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+.bodydiv
+{
+    margin-top: 5%;
+}
+input
+{
+    background-color: #222831;
+    color: #00adb5;
+}
+button
+{
+    background-color: #222831;
+    border-color: #00adb5;
+    padding: 10px;
+}
+select
+{
+    background-color: #222831;
+    color: #00adb5;
+}
+.search
+{
+    text-align: center;
+}
+.categorybuttons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.categorybuttons button
+{
+    padding: 5px;
+}
+.form
+{
+    display: flex;
+    justify-content: center;
+}
+#searchbutton
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.pricebox
+{
+    width: 90px;
+    margin-top: 10px;
+}
+#rangedash
+{
+    padding: 10px;
+}
+.results
+{
+    padding-top: 2%;
+    margin-left: 30%;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+}

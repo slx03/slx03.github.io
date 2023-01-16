@@ -1,0 +1,51 @@
+*
+{
+  color: #eeeeee;
+  background-color: #393E46;
+}
+.center 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+}
+input
+{
+  background-color: #222831;
+  color: #00adb5;
+}
+button
+{
+  background-color: #222831;
+  border-color: #00adb5;
+}
+select
+{
+  background-color: #222831;
+  color: #00adb5;
+}
+#title
+{
+    color: #00adb5;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+.navbar
+{
+  display: flex;
+  justify-content: right;
+  padding-right: 5%;
+}
+.navbar button
+{
+  padding: 10px;
+}
+#sellbutton
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

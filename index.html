@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "indexstyle.css">
+</head>
+<body>
+    <h1 id = "title">NILE COMMERCE</h1>
+    <div class="navbar">
+        <button onclick = "location.href = 'index.html'">Home</button>
+        <button onclick = "location.href = 'signin.html'">Sign in</button>
+        <button onclick = "location.href = 'sellitem.html'">Sell</button>
+        <button onclick = "location.href = 'shoppingcart.html'">Shopping cart</button>
+    </div>
+    <div class = "bodydiv">
+        <div class = "search">
+            <label for = "searchbar">Search</label>
+            <input type = "search" id = "searchbar"><br><br>
+        </div>
+        <div class = "categorybuttons">
+            <button style = "margin: 10px;" onclick = "location.href = 'product.html'">Books</button>
+            <button style = "margin: 10px;">Movies</button>
+            <button style = "margin: 10px;">Vinyls</button>
+        </div>
+        <br><br>
+        <div class = "form">
+            <form>
+                <label for = "filter1">Supplier</label><br>
+                <select name = "filter1" id = "filter1">
+                    <option value = null></option>
+                    <option value = "supplier1">Bloomsbury Publishing</option>
+                    <option value = "supplier2">Paramount Pictures</option>
+                    <option value = "supplier3">Rhythm Import</option>
+                </select> <br><br>
+                <label for = "filter2">Price range</label><br>
+                <input class = "pricebox" placeholder = "min: €0">
+                <small id = "rangedash">-</small>
+                <input class = "pricebox" placeholder = "max: €1000">
+                <br><br>
+                <label for = "filter3">Rating</label><br>
+                <select name = "filter3" id = "filter3">
+                    <option value = null></option>
+                    <option value = "rating1">4 stars and more</option>
+                    <option value = "rating2">3 stars and more</option>
+                    <option value = "rating3">2 stars and more</option>
+                    <option value = "rating4">1 star and more</option>
+                </select> <br>
+                <button type = "button" id = "searchbutton" onclick = "location.href = 'product.html'">Search</button>
+            </form>
+        </div>
+        <div class = "results">
+            <p>Results</p>
+            <input id = "resultsbox" style = "height: 100px; width: 600px;"> <br> <br>
+        </div>
+    </div>
+</body>
+</html>

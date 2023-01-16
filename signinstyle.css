@@ -1,0 +1,45 @@
+*
+{
+    color: #eeeeee;
+}
+body
+{
+    background-color: #393e46;
+}
+.centered
+{
+    display: flex;
+    justify-content: center;
+}
+.loginForm
+{
+    display: flex;
+    justify-content: center;
+}
+#title
+{
+    color: #00adb5;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+input
+{
+    background-color: #222831;
+    color: #00adb5;
+}
+button
+{
+    background-color: #222831;
+    border-color: #00adb5;
+    padding: 10px;
+}
+.middle
+{
+    padding-top: 10%;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+}

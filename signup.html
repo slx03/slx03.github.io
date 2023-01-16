@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "signupstyle.css">
+</head>
+<body>
+    <h1 id = "title">NILE COMMERCE</h1>
+    <div class="navbar">
+        <button onclick = "location.href = 'index.html'">Home</button>
+        <button onclick = "location.href = 'signin.html'">Sign in</button>
+        <button onclick = "location.href = 'sellitem.html'">Sell</button>
+        <button onclick = "location.href = 'shoppingcart.html'">Shopping cart</button>
+    </div>
+    <h2 class = "centered">Sign up</h2>
+    <div id = "bodydiv">
+        <p class = "centered">I am a:</p>
+        <form class = "centered">
+            <input type = "radio" name = "type" id = "customer" value = "customer">
+            <label for = "customer">customer</label><br>
+            <input type = "radio" name = "type" id = "supplier" value = "supplier">
+            <label for = "supplier">supplier</label><br>
+        </form>
+        <div id = "formdiv">
+            <form>
+                <label for = "username">Username</label><br>
+                <input type = "text" id = "username"><br><br>
+                <label for = "password">Password</label><br>
+                <input type = "text" id = "password"><br><br>
+                <label for = "name">Name</label><br>
+                <input type = "text" id = "name"><br><br>
+                <label for = "address">Address</label><br>
+                <input type = "text" id = "address"><br><br>
+                <label for = "country">Country</label><br>
+                <select name = "country" id = "country">
+                    <option value = null></option>
+                    <option value = "Netherlands">Netherlands</option>
+                    <option value = "Belgium">Belgium</option>
+                    <option value = "Romania">Romania</option>
+                    <option value = "Eswatini">Eswatini</option>
+                </select> <br><br>
+                <label for = "zipcode">ZIP code</label><br>
+                <input type = "text" id = "zipcode"><br><br>
+                <label for = "email">Email</label><br>
+                <input type = "text" id = "email"><br><br>
+                <label for = "gender">Gender</label><br>
+                <select name = "gender" id = "gender">
+                    <option value = null></option>
+                    <option value = "Male">Male</option>
+                    <option value = "Female">Female</option>
+                    <option value = "X">X</option>
+                    <option value = "Prefer not to say">Prefer not to say</option>
+                </select> <br><br>
+                <label for = "language">Language</label><br>
+                <select name = "language" id = "language">
+                    <option value = null></option>
+                    <option value = "Dutch">Dutch</option>
+                    <option value = "English">English</option>
+                    <option value = "Romanian">Romanian</option>
+                    <option value = "Swati">Swati</option>
+                </select> <br><br>
+                <label for = "bio">Bio</label><br>
+                <input type = "text" id = "bio">
+            </form>
+        </div>
+    </div>
+    <div class="centered">
+        <button type = "submit" id = "register"><a href = "index.html" style = "text-decoration: none;">Register</a></button>
+    </div>
+</body>
+</html>

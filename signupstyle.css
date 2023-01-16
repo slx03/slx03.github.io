@@ -1,0 +1,50 @@
+*
+{
+    color: #eeeeee;
+    background-color: #393E46;
+}
+.centered
+{
+    display: flex;
+    justify-content: center;
+}
+input
+{
+    background-color: #222831;
+    color: #00adb5;
+}
+button
+{
+    background-color: #222831;
+    border-color: #00adb5;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+select
+{
+    background-color: #222831;
+    color: #00adb5;
+}
+#title
+{
+    color: #00adb5;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+#formdiv
+{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+#register
+{
+    margin-top: 2%;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+}

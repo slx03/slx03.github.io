@@ -1,0 +1,48 @@
+*
+{
+    background-color: #393E46;
+    color: #eeeeee;
+}
+#title
+{
+    color: #00adb5;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left
+{
+    flex-basis: 60%;
+    padding-right: 5%;
+}
+.right
+{
+    padding-top: 10%;
+    padding-bottom: 25%;
+}
+img
+{
+    height: 400px;
+}
+button
+{
+    background-color: #222831;
+    border-color: #00adb5;
+    padding: 10px;
+}
+select
+{
+    background-color: #222831;
+    color: #00adb5;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+}
